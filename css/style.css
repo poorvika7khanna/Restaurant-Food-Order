@@ -1,0 +1,335 @@
+/*
+	Author: Poorvika Khanna;
+	Theme: Restaurant Food Order;
+	Version: 1.0;
+*/
+*{ /* applied to everything */
+	margin: 0 0;
+	padding: 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+.img-responsive{
+	width: 100%;
+}
+
+.img-curve{
+	border-radius: 15px;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-white{
+	color: white;
+}
+
+.text-light-grey{
+	color: #ededed;
+}
+
+.text-light-pink{
+	color: #f26888;
+}
+
+.text-pink{
+	color: #d61542;
+}
+
+.bg-pink{
+	background-color: #d61542;
+}
+	
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+a{
+	color: #d61542;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #ab0f34;
+}
+
+.btn{
+	padding: 1%;
+	border: none;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+
+.btn-primary{
+	background-color: #d61542;
+	color: white;
+}
+
+.btn-primary:hover{
+	color: white;
+	background-color: #ab0f34;
+}
+
+h2{
+	color: #2b2527;
+	font-size: 2rem;
+	margin-bottom: 2%;
+}
+
+h3{
+	font-size: 1.5rem;
+}
+
+.float-container{
+	position: relative;
+}
+
+.float-text{
+	position: absolute;
+	bottom: 20px;
+	left: 6%;
+}
+
+legend{
+	color: #fae97d;
+}
+
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.success{
+	padding: 2%;
+	color: #0ca653;
+}
+
+.error{
+	padding: 2%;
+	color: #f72d52;
+}
+
+/* css for navbar section */
+
+.logo{
+	width: 14%;
+	float: left;
+}
+
+.menu{
+	line-height: 100px;
+}
+
+.menu ul{
+	list-style-type: none;
+}
+
+.menu ul li{
+	display: inline;
+	padding: 1%;
+	font-weight: bold;
+}
+
+/* css for food-search section */
+
+
+ .food-search{
+  background-image: url("../images/bg-img.jpg");
+
+  /* Set a specific height */
+  min-height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.food-search input[type="search"]{
+	width: 50%;
+	padding: 1%;
+	font-size: 1rem;
+	border: none;
+	margin-top: 100px;
+	border-radius: 5px;
+}
+
+.food-search h2{
+	margin-top: 100px;
+}
+
+/* css for categories section */
+
+.categories{
+	padding: 4% 0;
+	background-color: #d61542;
+}
+
+.box3{
+	width: 28%;
+	float: left;
+	margin: 2%;
+}
+
+/* css for food menu */
+
+.food-menu{
+	background-color: #ececec;
+	padding: 4% 0;
+}
+
+.food-menu-box{
+	width: 43%;
+	margin: 1%;
+	float: left;
+	padding: 2%;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.food-menu-img{
+	width: 20%;
+	float: left;
+}
+
+.food-menu-desc{
+	width: 70%;
+	float: left;
+	margin-left: 5%;
+}
+
+.food-price{
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin: 2% 0;
+}
+
+.food-detail{
+	font-size: 1rem;
+	color: #2b2527;
+}
+
+/* css for social */
+
+.social ul{
+	list-style-type: none;
+}
+
+.social ul li{
+	display: inline;
+	padding: 1%;
+}
+
+.social-img{
+	width: 3.5%;
+}
+
+
+/* footer */
+
+.footer {
+	border-top: 4px solid #ececec;
+}
+
+
+/* for Order Section */
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+    color: #ededed;
+}
+
+
+
+/* CSS for mobile size or smaller screen */
+
+@media only screen and (max-width: 768px){
+	.logo{
+		width: 70%;
+		float: none;
+		margin: 1% auto;
+	}
+
+	.menu ul{
+		text-align: center;
+	}
+
+	.food-search input[type="search"]{
+		width: 90%;
+		padding: 2%;
+		margin-bottom: 3%;
+	}
+
+	.btn{
+		width: 90%;
+		padding: 2%;
+	}
+
+	.food-search{
+		padding: 2% 0;
+	}
+
+	.categories{
+		padding: 12% 0;
+	}
+
+	h2{
+		margin-bottom: 10%;
+	}
+
+	.box3{
+		width: 90%;
+		margin: 4% auto;
+	}
+
+	.food-menu{
+		padding: 20% 0;
+	}
+
+	.food-menu-box{
+		width: 90%;
+		padding: 5%;
+		margin-bottom: 5%;
+	}
+
+	.social-img{
+		width: 10%;
+	}
+
+	.social{
+		padding: 2% 0;
+	}
+
+	.order{
+        width: 100%;
+    }
+}
